@@ -1,0 +1,8 @@
+{
+    "name": "digital-drifter/laravel-chrome-logger",
+    "description": "Log PHP output to the Chrome console.",
+    "type": "package",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {}
+}
