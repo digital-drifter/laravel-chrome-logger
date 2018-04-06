@@ -6,7 +6,7 @@ Laravel bridge for [ChromePhp](https://craig.is/writing/chrome-logger).
 
 This package requires the [Chrome Logger](https://chrome.google.com/webstore/detail/chrome-logger/noaneddfkdjfnfdakjjmocngnfkfehhd) extension.
 
-Once you've installed the extension, add this package to your package via composer:
+Once you've installed the extension, add this package to your project via composer:
 
 ``` bash
 $ composer require --dev digital-drifter/laravel-chrome-logger
@@ -25,7 +25,7 @@ Previous versions of the framework just add the service provider in `config/app.
 
 # Available Methods
 
-All methods exposed on the `ChromePhp` class are available. The following comes directly for the class:
+All methods exposed on the `ChromePhp` class are available. The following comes directly from the class:
 
 ```php
 /**
@@ -159,7 +159,7 @@ public function log(string $message)
 The `console()` helper method is available.
 
 ```php
-public function log(string $level = 'log', string $message)
+public function log(string $level = "log", string $message)
 {
 	console($level, $message);
 }
