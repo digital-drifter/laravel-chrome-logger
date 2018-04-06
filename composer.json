@@ -18,7 +18,7 @@
       "DigitalDrifter\\LaravelChromeLogger\\": "src/"
     },
     "files": [
-      "../../vendor/ccampbell/chromephp/ChromePhp.php",
+      "../../ccampbell/chromephp/ChromePhp.php",
       "src/helpers.php"
     ]
   },
