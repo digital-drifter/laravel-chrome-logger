@@ -2,7 +2,6 @@
 
 namespace DigitalDrifter\LaravelChromeLogger\Facades;
 
-use ChromePhp;
 use DigitalDrifter\LaravelChromeLogger\LaravelChromeLogger as Logger;
 use Illuminate\Support\Facades\Facade;
 
